@@ -2,137 +2,127 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Jenkins Website</title>
+    <title>My Portfolio</title>
     <style>
         body {
             margin: 0;
             font-family: Arial, sans-serif;
-            background: #f4f7fb;
+            background-color: #000;
+            color: #fff;
         }
 
         header {
-            background: linear-gradient(90deg, #0b3d91, #1e90ff);
-            color: white;
-            padding: 15px 0;
             text-align: center;
+            padding: 50px 20px;
+            border-bottom: 2px solid #fff;
         }
 
-        nav {
-            background: #222;
-            padding: 10px;
-            text-align: center;
+        h1 {
+            font-size: 48px;
+            font-weight: bold;
+            margin: 0;
         }
 
-        nav a {
-            color: white;
-            margin: 0 15px;
-            text-decoration: none;
+        p.tagline {
+            font-size: 20px;
+            margin-top: 10px;
             font-weight: bold;
         }
 
-        nav a:hover {
-            color: #1e90ff;
-        }
-
-        .hero {
-            background: linear-gradient(to right, #1e90ff, #00c6ff);
-            color: white;
-            padding: 80px 20px;
-            text-align: center;
-        }
-
-        .hero h1 {
-            font-size: 3em;
-        }
-
-        .container {
+        section {
             padding: 40px 20px;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        h2 {
+            font-size: 32px;
+            border-bottom: 2px solid #fff;
+            display: inline-block;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            font-size: 20px;
+            margin: 10px 0;
+            font-weight: bold;
         }
 
         .card {
-            background: white;
-            margin: 15px;
+            border: 1px solid #fff;
             padding: 20px;
-            width: 250px;
-            border-radius: 10px;
-            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            margin: 10px 0;
+        }
+
+        footer {
             text-align: center;
-            transition: transform 0.3s;
-        }
-
-        .card:hover {
-            transform: translateY(-10px);
-        }
-
-        .card h3 {
-            color: #0b3d91;
-        }
-
-        .footer {
-            background: #0b3d91;
-            color: white;
-            text-align: center;
-            padding: 15px;
-        }
-
-        button {
-            background: #1e90ff;
-            border: none;
-            padding: 10px 20px;
-            color: white;
-            border-radius: 5px;
-            cursor: pointer;
-        }
-
-        button:hover {
-            background: #0b3d91;
+            padding: 20px;
+            border-top: 2px solid #fff;
+            font-weight: bold;
         }
     </style>
 </head>
 <body>
 
 <header>
-    <h1>🚀 Jenkins Deployment Website</h1>
-    <p>CI/CD Pipeline Demo</p>
+    <h1>YOUR NAME</h1>
+    <p class="tagline">ECE Student | Tech Enthusiast | Future Engineer</p>
 </header>
 
-<nav>
-    <a href="#">Home</a>
-    <a href="#">Services</a>
-    <a href="#">About</a>
-    <a href="#">Contact</a>
-</nav>
-
-<section class="hero">
-    <h1>Welcome to My Jenkins Project</h1>
-    <p>Automated Build | Test | Deploy</p>
-    <button>Explore More</button>
-</section>
-
-<section class="container">
+<section>
+    <h2>About Me</h2>
     <div class="card">
-        <h3>🔧 Build</h3>
-        <p>Automate your builds using Jenkins pipelines.</p>
-    </div>
-
-    <div class="card">
-        <h3>🧪 Test</h3>
-        <p>Run automated tests to ensure quality.</p>
-    </div>
-
-    <div class="card">
-        <h3>🚀 Deploy</h3>
-        <p>Deploy your applications seamlessly.</p>
+        <p>
+            I am an Electronics and Communication Engineering student passionate about technology,
+            development, and innovation. I enjoy building projects and learning new skills.
+        </p>
     </div>
 </section>
 
-<div class="footer">
-    <p>© 2026 Jenkins Demo | Designed by You</p>
-</div>
+<section>
+    <h2>Skills</h2>
+    <div class="card">
+        <ul>
+            <li>✔ Python Programming</li>
+            <li>✔ HTML, CSS, JavaScript</li>
+            <li>✔ Git & GitHub</li>
+            <li>✔ Basic AWS (EC2, S3)</li>
+            <li>✔ Problem Solving (DSA)</li>
+        </ul>
+    </div>
+</section>
+
+<section>
+    <h2>Interests</h2>
+    <div class="card">
+        <ul>
+            <li>⚡ Web Development</li>
+            <li>⚡ VLSI & Core Electronics</li>
+            <li>⚡ Cloud Computing</li>
+            <li>⚡ Artificial Intelligence</li>
+            <li>⚡ Learning New Technologies</li>
+        </ul>
+    </div>
+</section>
+
+<section>
+    <h2>Contact</h2>
+    <div class="card">
+        <p>Email: yourname@email.com</p>
+        <p>LinkedIn: linkedin.com/in/yourprofile</p>
+        <p>GitHub: github.com/yourusername</p>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 YOUR NAME</p>
+</footer>
 
 </body>
 </html>
